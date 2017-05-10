@@ -16,7 +16,7 @@ To compile the examples, type:
 
     ceylon compile
 
-Or, simply open the project into IntelliJ.
+Or, simply open the project in IntelliJ.
 
 ## Running
 
