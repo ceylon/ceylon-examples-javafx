@@ -8,13 +8,20 @@ ported to the [Ceylon language][].
 
 ## Requirements
 
-This project requires Ceylon 1.3.2 and Java 8.
+This project requires Ceylon 1.3.2 and Java 8. You do not
+need to install Ceylon if you don't already have it installed.
+The `ceylonb` command is self-installing.
+
+To play with the samples in IntelliJ, you'll need to install
+[Ceylon IDE for IntelliJ][].
+
+[Ceylon IDE for IntelliJ]: https://ceylon-lang.org/documentation/1.3/ide/intellij/
 
 ## Compiling
 
 To compile the examples, type:
 
-    ceylon compile
+    ./ceylonb compile
 
 Or, simply open the project in IntelliJ.
 
@@ -22,7 +29,7 @@ Or, simply open the project in IntelliJ.
 
 To run an example, type:
 
-    ceylon run example.javafx.xxxx
+    ./ceylonb run example.javafx.xxxx
 
 where `example.javafx.xxxx` is the module name of 
 the example you wish to run.
@@ -34,7 +41,7 @@ IntelliJ and 'Run' it.
 
 To assemble a "fat" jar, type:
 
-    ceylon fat-jar example.javafx.xxxx
+    ./ceylonb fat-jar example.javafx.xxxx
 
 Then run it using:
 
