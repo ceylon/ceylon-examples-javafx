@@ -15,7 +15,11 @@ The `ceylonb` command is self-installing.
 To play with the samples in IntelliJ, you'll need to install
 [Ceylon IDE for IntelliJ][].
 
+To play with the samples in Eclipse, you'll need to install
+[Ceylon IDE for Eclipse][].
+
 [Ceylon IDE for IntelliJ]: https://ceylon-lang.org/documentation/1.3/ide/intellij/
+[Ceylon IDE for Eclipse]: https://ceylon-lang.org/documentation/1.3/ide/eclipse/
 
 ## Compiling
 
@@ -23,7 +27,7 @@ To compile the examples, type:
 
     ./ceylonb compile
 
-Or, simply open the project in IntelliJ.
+Or, simply open the project in IntelliJ or in Eclipse.
 
 ## Running
 
@@ -35,7 +39,9 @@ where `example.javafx.xxxx` is the module name of
 the example you wish to run.
 
 Alternatively, select the example's `run()` method in
-IntelliJ and 'Run' it.
+IntelliJ or Eclipse and 'Run' it. Or, select the 
+example's `run()` method in Eclipse and 
+'Run As > Ceylon Java Application'.
 
 ## Assembling and running a fat jar
 
@@ -48,4 +54,6 @@ Then run it using:
     java -jar example.javafx.xxxx-1.0.0.jar
 
 Alternatively, select the example's module descriptor in
-IntelliJ, and 'Run ... with fat-jar'.
+IntelliJ, and 'Run ... with fat-jar'. Or, select the 
+example's `run()` method in Eclipse and 
+'Run As > Ceylon Java Application Packaged As Fat Jar'.
