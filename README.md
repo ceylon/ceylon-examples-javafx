@@ -3,6 +3,8 @@
 The project contains some of the [JavaFX Samples][] ported 
 to the [Ceylon language][].
 
+![screenshot](screenshot.png)
+
 [Ceylon language]: http://ceylon-lang.org
 [JavaFX Samples]: https://docs.oracle.com/javase/8/javafx/get-started-tutorial/get_start_apps.htm
 
