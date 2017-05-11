@@ -22,7 +22,7 @@ To play with the samples in an IDE, you'll need to install
 [Ceylon IDE for IntelliJ]: https://ceylon-lang.org/documentation/1.3/ide/intellij/
 [Ceylon IDE for Eclipse]: https://ceylon-lang.org/documentation/1.3/ide/eclipse/
 
-## Compiling
+## Compiling the examples
 
 To compile the examples, type:
 
@@ -30,7 +30,7 @@ To compile the examples, type:
 
 Or, simply open the project in IntelliJ or in Eclipse.
 
-## Running
+## Running an example
 
 To run an example, type:
 
@@ -62,3 +62,13 @@ Alternatively:
   'Run ... with fat-jar', or
 - select the example's `run()` method in Eclipse and 
   'Run As > Ceylon Java Application Packaged As Fat Jar'.
+
+## Assembling and running a Ceylon assembly
+
+To assemble a Ceylon assembly archive, type:
+
+    ./ceylonb assemble example.javafx.xxxx
+
+Then run it using:
+
+    ./ceylonb run --assembly example.javafx.xxxx-1.0.0.cas
