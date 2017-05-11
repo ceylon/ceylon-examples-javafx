@@ -3,7 +3,7 @@
 The project contains some of the [JavaFX Samples][] ported 
 to the [Ceylon language][].
 
-![screenshot](screenshot.png)
+<img src="screenshot.png" height="298" width="300" style="padding:20px"/>
 
 [Ceylon language]: http://ceylon-lang.org
 [JavaFX Samples]: https://docs.oracle.com/javase/8/javafx/get-started-tutorial/get_start_apps.htm
