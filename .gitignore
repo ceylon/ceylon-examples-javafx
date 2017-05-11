@@ -2,3 +2,5 @@
 /modules/
 .DS_Store
 /classes/
+/example.javafx.*.jar
+/example.javafx.*.cas
