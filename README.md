@@ -73,4 +73,4 @@ To assemble a Ceylon assembly archive, type:
 
 Then run it using:
 
-    ./ceylonb run --assembly example.javafx.xxxx-1.0.0.cas
+    ./ceylonb run --assembly=example.javafx.xxxx-1.0.0.cas
